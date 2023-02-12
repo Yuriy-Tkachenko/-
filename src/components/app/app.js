@@ -1,9 +1,12 @@
 import React from "react";
+import PageWrapper from "../layout/page-wrapper/page-wrapper";
+import { GlobalStyle } from "./styles.js";
 
 export default function App() {
   return(
     <>
-      <div>Привет мир</div>
+      <GlobalStyle />
+      <PageWrapper />;
     </>
-  )
+  ) 
 }
