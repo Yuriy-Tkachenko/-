@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../ui/logo/logo";
+import { ReactComponent as LogoImage } from "../../../assets/logo.svg";
 import Nav from "../nav/nav";
 import Input from "../../ui/input/input";
 import ButtonList from "../../ui/button-list/button-list";
@@ -9,7 +9,7 @@ function Header() {
   return(
     <>
       <StyledHeader>
-        <Logo />
+        <LogoImage style = { {marginRight: "40px"} } />
         <Nav />
         <Input />
         <ButtonList />

@@ -3,12 +3,9 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
-  html {
-    height: 100%;
-  }
-
   body, html {
     margin: 0;
+    height: 100%;
   }
 
   body {
