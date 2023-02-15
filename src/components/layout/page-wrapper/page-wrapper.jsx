@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../header/header";
 import Footer from "../footer/footer";
-import StyledWrapper from "./styles";
+import MainPage from "../../pages/main-page";
 
 function PageWrapper() {
   return(
     <>
       <Header />
-        <StyledWrapper/>
+      <MainPage />
       <Footer />
     </>
   )
